@@ -100,7 +100,7 @@ function PlasmicNavBar__RenderFunc(props) {
         <Button
           data-plasmic-name={"homeButton"}
           data-plasmic-override={overrides.homeButton}
-          link={`/`}
+          link={`/home`}
           showStartIcon={true}
           startIcon={
             <HomeIcon
@@ -196,7 +196,7 @@ function PlasmicNavBar__RenderFunc(props) {
                             componentUuid: "0Wk7JhBML7RLpE",
                             argName: "destination"
                           },
-                          () => `/`
+                          () => `/home`
                         )
                       };
                       return __wrapUserFunction(
